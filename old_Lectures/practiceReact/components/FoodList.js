@@ -1,8 +1,6 @@
-import { apiData } from "./public/food-products";
-import "./foodList.css"
-import React from "react";
-import ReactDOM from "react-dom/client"
-import { useState } from "react";
+import { apiData } from "../public/food-products";
+import { useState } from "react"
+import "../utils/foodList.css"
 
 
 const FoodCard = ({food}) =>{
@@ -70,7 +68,4 @@ const withPromotedLabel = (FoodCard) =>{
 }
 
 
-const rootElem = document.getElementById("root")
-const root = ReactDOM.createRoot(rootElem)
-
-root.render(<FoodList/>)
+export default FoodList;
