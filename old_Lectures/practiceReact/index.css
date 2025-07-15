@@ -1,0 +1,15 @@
+.flex {
+    display: flex;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+.text-white {
+    color: white;
+}
+
+.flex-end {
+    justify-content: end;
+}

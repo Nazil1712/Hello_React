@@ -6,7 +6,7 @@ import SecChildClass from "./SecChildClass";
 
 
 class Practice extends React.Component {
-// class Practice extends Component {
+// class Practice extends Component { // then you have to import component from react
 
   constructor(props) {
     super(props)

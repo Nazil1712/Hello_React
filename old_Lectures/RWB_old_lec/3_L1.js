@@ -15,7 +15,7 @@ root.render(heading) */
 /*
     <div id="parent">
         <div id="child">
-            <h1></h1>
+            <h1>Hi This is Parent - child - h1</h1>
         </div>
     </div>
 */
@@ -37,8 +37,8 @@ root.render(parent) */
 /*
     <div id="parent">
         <div id="child">
-            <h1></h1>
-            <h2></h2>
+            <h1>Hi This is Parent - child - h1</h1>
+            <h2>Hi this is h2 tag</h2>
         </div>
     </div>
 */
@@ -76,12 +76,15 @@ root.render(parent) */
 
 
 
-// See how difficult it is to manage That's why there is need of JSX (see below)
+// See how difficult it is to manage (see below), That's why there is need of JSX 
 
 /* const p1 = 
-React.createElement("parent", {},[React.createElement("div", {id:"child"},
-[React.createElement("h1", {}, "Hi This is Parent - child - h1"), React.createElement("h2",{},"Hi this is h2 tag")]),React.createElement("div", {id:"child"},
-[React.createElement("h1", {}, "Hi This is Parent - child - h1"), React.createElement("h2",{},"Hi this is h2 tag")])])
+
+ React.createElement("parent", {},
+    [React.createElement("div", {id:"child"},
+    [React.createElement("h1", {}, "Hi This is Parent - child - h1"), React.createElement("h2",{},"Hi this is h2 tag")]),React.createElement("div", {id:"child"},
+
+    [React.createElement("h1", {}, "Hi This is Parent - child - h1"), React.createElement("h2",{},"Hi this is h2 tag")])])
 
 const root = React.createRoot(document.getElementById("root"))
 
